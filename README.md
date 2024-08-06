@@ -8,7 +8,7 @@
 
 ## Sobre <a name = "sobre"></a>
 
-Desafio-teste de RPA da doc9 para a vaga de Analista de Desenvolvimento Junior
+Desafio-teste de RPA da doc9 para a vaga de Programador RPA Junior
 
 ## Inicialização <a name = "inicialização"></a>
 
