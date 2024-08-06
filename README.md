@@ -1,46 +1,49 @@
-# Project Title
+# Desafio RPA - doc9
 
-## Table of Contents
+## Conteúdo
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [Sobre](#sobre)
+- [Inicialização](#inicialização)
+- [Uso](#uso)
 
-## About <a name = "about"></a>
+## Sobre <a name = "sobre"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Desafio-teste de RPA da doc9 para a vaga de Analista de Desenvolvimento Junior
 
-## Getting Started <a name = "getting_started"></a>
+## Inicialização <a name = "inicialização"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Estas instruções ajudarão você a rodar o projeto localmente para desenvolvimento e testes.
 
-### Prerequisites
+### Pré-requisitos
 
-What things you need to install the software and how to install them.
+Antes de começar, você precisará ter o Python instalado em sua máquina. Você pode baixar o Python [aqui](https://www.python.org/downloads/).
 
-```
-Give examples
-```
+### Instalando
 
-### Installing
+Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o projeto:
 
-A step by step series of examples that tell you how to get a development env running.
+1. **Clone o repositório:**
 
-Say what the step will be
+   ```bash
+   git clone <https://github.com/walson-oliveira/repositorio_testes>
+2. **Crie e ative um ambiente virtual::**
 
-```
-Give the example
-```
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
 
-And repeat
+3. **Instale as dependências:**
 
-```
-until finished
-```
+    Com o ambiente virtual ativado, instale as dependências do projeto listadas no requirements.txt:
 
-End with an example of getting some data out of the system or using it for a little demo.
+    ```bash
+    pip install -r requirements.txt
 
-## Usage <a name = "usage"></a>
+## Uso <a name="uso"></a>
 
-Add notes about how to use the system.
+**Execute o script:**
+
+
+
+```bash
+python script.py
